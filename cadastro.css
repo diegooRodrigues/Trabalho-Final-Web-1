@@ -27,6 +27,13 @@ body {
     height: 5%;
 }
 
+.informacao {
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin: 10px 25% 10px 25%;
+}
+
 .formulario {
     background-color: rgb(243, 243, 243);
     border-radius: 20px;
@@ -36,4 +43,11 @@ body {
     align-items: center;
 }
 
-
+.formulario a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgb(133, 133, 133);
+    border-radius: 2px;
+    padding: 1px 6px;
+    background-color: #F0F0F0;
+}
