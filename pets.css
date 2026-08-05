@@ -10,7 +10,7 @@ body {
     background-size: 100%;
 }
 
-.container {
+main {
     display: flex;
     flex-direction: column;
     margin: 0 10% 0 10%;
@@ -20,7 +20,7 @@ body {
     text-align: justify;
 }
 
-.cabeçalho {
+header {
     display: flex;
     align-items: center;
     gap: 30px;
@@ -28,11 +28,11 @@ body {
 }
 
 
-.cabeçalho img {
+header img {
     margin: 1%;
 }
 
-.nav {
+nav {
     display: flex;
     justify-content: center;
     align-items: center;
