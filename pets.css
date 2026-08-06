@@ -10,26 +10,12 @@ body {
     background-size: 100%;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    margin: 0 10% 0 10%;
-    background-color: white;
-    gap: 5px;
-    border-radius: 20px;
-    text-align: justify;
-}
-
 header {
     display: flex;
     align-items: center;
     gap: 30px;
-    height: 5%;
-}
-
-
-header img {
-    margin: 1%;
+    padding: 20px 5%;
+    background-color: white;
 }
 
 nav {
@@ -38,6 +24,18 @@ nav {
     align-items: center;
     gap: 30px;
     background-color: rgb(243, 243, 243);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10% 0 10%;
+    background-color: white;
+    gap: 5px;
+    text-align: justify;
 }
 
 .botao {
@@ -99,15 +97,8 @@ h2 {
 }
 
 footer {
-    margin-top: 70px;
-    height: auto;
-    border-radius: 0px 0px 20px 20px;
     background-color: rgb(202, 202, 202);
-}
-
-footer p {
-    margin: 1% 3% 1% 3%;
-    font-size: 18px;
+    padding: 3% 10%;
 }
 
 @media (max-width:750px) {
