@@ -7,26 +7,44 @@
     <link rel = "stylesheet" href = "cadastro.css">
 </head>
 <body>
-    <main>
+    <div class="container">
+
         <header>
             <a href="index.html"><img src="imagens/logo.png" height="50px"></a>
             <h1>Castle Crashers Wiki</h1>
         </header>
-        <div class="informacao">
+        
+        <main>
+            
             <p>É necessário fazer cadastro para contribuir.</p>
-        </div>
-        <div class="formulario">
-            <form method = "post">
-                <p><label>Usuário: <input type = "text" required></label></p>
-                <p><label>Nome Completo: <input type = "text" required></label></p>
-                <p><label>Nascimento: <input type = "date" required></label></p>
-                <p><label>Email: <input type = "email" required></label></p>
-                <p><label>Senha: <input type = "password" required></label></p>
-                <p><label>Concordo com os termos de uso <input type = "checkbox" required></label></p>
-                <p><input type="Submit"></p>
-                <p><a href="index.html">Voltar à página principal</a></p>
+            
+            <form method="post">
+                <fieldset>
+
+                    <legend>Dados de Cadastro</legend>
+
+                    <label>Usuário: <input type = "text" required></label>
+
+                    <label>Nome Completo: <input type = "text" required></label>
+
+                    <label>Nascimento: <input type = "date" required></label>
+
+                    <label>Email: <input type = "email" required></label>
+
+                    <label>Senha: <input type = "password" required></label>
+
+                    <label>Concordo com os termos de uso <input type = "checkbox" required></label>
+
+                    <input type="Submit" id="enviar">
+
+                    <a href="index.html">Voltar à página principal</a>
+
+                </fieldset>
+
             </form>
-        </div>
-    </main>
+
+        </main>
+
+    </div>
 </body>
 </html>
