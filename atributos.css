@@ -16,6 +16,7 @@ header {
     gap: 30px;
     padding: 20px 5%;
     background-color: white;
+    font-size: 24px;
 }
 
 nav {
@@ -29,16 +30,7 @@ nav {
     z-index: 100;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    margin: 0 10% 0 10%;
-    background-color: white;
-    gap: 5px;
-    text-align: justify;
-}
-
-.botao {
+nav a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,51 +43,20 @@ main {
     font-size: 18px;
 }
 
-.botao:hover {
+nav a:hover {
     background-color: rgb(202, 202, 202);
 }
 
-.conteudo-principal {
-    margin: 1% 3% 1% 3%;
-}
-
-.conteudo-principal p {
-    margin-top: 1%;
-    font-size: 18px;
-}
-
-.atributos {
-    margin-top: 70px;
-}
-
-.atributos h2 {
-    margin-top: 1%;
-}
-
-.atributos p {
-    margin-left: 3%;
-}
-
-.atributo {
+main {
     display: flex;
-    align-items: center;
-    margin-top: 1%;
-    margin-bottom: 70px;
+    flex-direction: column;
+    text-align: justify;
+    margin: 0 20% 0 20%;
+    background-color: white;
+    padding: 15px 40px;
 }
 
 footer {
     background-color: rgb(202, 202, 202);
     padding: 3% 10%;
-}
-
-@media (max-width:750px) {
-    h1 {
-        font-size: 26px;
-    }
-    h2 {
-        font-size: 20px;
-    }
-    p {
-        font-size: 14px;
-    }
 }
