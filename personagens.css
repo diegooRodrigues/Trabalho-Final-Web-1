@@ -68,6 +68,9 @@ p {
     margin-bottom: 10px;
 }
 
+.conteudo-tabela {
+    overflow-x: auto;
+}
 
 .tabela {
     border-collapse: collapse;

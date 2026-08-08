@@ -13,8 +13,11 @@ body {
 .container {
     background-color: white;
     border-radius: 20px;
-    margin: 10%;
+    margin: 10% auto;
     padding: 1% 5%;
+    width: 90%;
+    max-width: 600px;
+    box-sizing: border-box;
 }
 
 header {
