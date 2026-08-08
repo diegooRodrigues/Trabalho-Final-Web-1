@@ -56,8 +56,22 @@ main {
     padding: 15px 40px;
 }
 
+h2 {
+    margin-bottom: 5px;
+}
+
+hr {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+
 .tabela {
     border-collapse: collapse;
+    
 }
 
 .tabela td, th {
@@ -70,4 +84,27 @@ main {
 footer {
     background-color: rgb(202, 202, 202);
     padding: 3% 10%;
+}
+
+@media (max-width: 750px) {
+    body {
+        background-image: none;
+        background-color: white;
+    }
+
+    main {
+        margin: 0;
+        width: 100%;
+        padding: 15px 20px;
+        box-sizing: border-box;
+    }
+
+    .tabela img {
+        height: 80px;
+    }
+
+    .tabela td, th {
+        padding: 3px;
+        font-size: 13px;
+    }
 }
